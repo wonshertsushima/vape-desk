@@ -1,0 +1,25 @@
+# VapeDesk changes
+
+The original single JavaScript file is separated into role-specific files plus one shared file.
+
+
+customer.js  customer shop, cart checkout, and order tracking
+
+admin.js`  admin dashboard and restricted page message
+
+cashier.js point of sale, receipts, and online order processing
+
+custodian.js  inventory, stock updates, product creation or deletion, and price editing.
+
+shared.js shared database & localStorage helpers, mock API, app state, authentication, shared product picker & cart helpers, navigation & rendering, and initialize
+
+## keep all the js same folder as the html so no errory worky
+
+##changes made - MitoDoesCode
+https://github.com/MitoDoCode
+
+1. Improved dropdown design – Made the product variant dropdowns cleaner and easier to read on both Cashier and Customer screens.
+2. Added better visual indicators – Improved the search field, dropdown arrows, selected option checkmarks, and out-of-stock labels.
+3. Updated CSS styling – Added the new dropdown styles to the existing style.css file.
+4. Updated JavaScript – Improved how dropdown options are displayed, searched, sorted, and selected while keeping the existing functionality.
+5. Fixed code formatting – Organized the code with consistent indentation, spacing, and comments to make it easier to read and maintain.
