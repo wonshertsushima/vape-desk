@@ -1,4 +1,12 @@
 /* ---------- LOCAL STORAGE DATABASE SEED & HELPER ---------- */
+
+/* ---------- 
+
+
+REDUNDANT BUT ILL KEEP IT HERE IF SOMETHING BROIKE -MITO
+
+
+---------- */
 const DB_KEY = 'vapedesk_db_v1';
 
 /* Tagged template that strips whitespace around newlines so multi-line
