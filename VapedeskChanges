@@ -1,0 +1,17 @@
+# VapeDesk changes
+
+The original single JavaScript file is separated into role-specific files plus one shared file.
+
+
+customer.js  customer shop, cart checkout, and order tracking
+
+admin.js`  admin dashboard and restricted page message
+
+cashier.js point of sale, receipts, and online order processing
+
+custodian.js  inventory, stock updates, product creation or deletion, and price editing.
+
+shared.js shared database & localStorage helpers, mock API, app state, authentication, shared product picker & cart helpers, navigation & rendering, and initialize
+
+## keep all the js same folder as the html so no errory worky
+
